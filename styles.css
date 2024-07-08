@@ -1,0 +1,230 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+body {
+    background-color: #FAFAFF;
+}
+
+.sans {
+    font-family: "Roboto", sans-serif;
+}
+
+.serif {
+    font-family: "Merriweather", serif;
+}
+
+/* header section */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #30343F;
+
+}
+
+.nav-item a {
+    color: #1E2749;
+
+}
+
+
+
+
+
+/* hero section */
+
+.hero-img {
+    border-radius: 8px;
+    border: 2px solid #1E2749;
+}
+
+.hero-row {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #30343F;
+    font-weight: bold;
+    font-size: 2.6rem;
+
+    text-transform: capitalize;
+    margin-bottom: 18px;
+
+
+}
+
+#hero p {
+    color: #30343F;
+    text-transform: capitalize;
+
+    font-size: 1rem;
+}
+
+.btn-sub {
+
+    background-color: #1E2749;
+    border: 2px solid #E4D9FF;
+    border-radius: 8px;
+
+    color: #E4D9FF;
+    font-weight: bold;
+    padding: 10px 20px;
+
+    width: 100%;
+
+    transition: all 0.25s;
+}
+
+.btn-serch {
+    background-color: #1E2749;
+    border: 2px solid #E4D9FF;
+    border-radius: 8px;
+
+    color: #E4D9FF;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.25s;
+}
+
+
+
+.btn-log {
+    background-color: #E4D9FF;
+    border: 2px solid #1E2749;
+    border-radius: 8px;
+
+    color: #1E2749;
+    font-weight: bold;
+    padding: 10px 20px;
+
+    width: 100%;
+
+    transition: all 0.25s;
+
+}
+
+button:hover,
+.btn-serch:hover {
+    opacity: 0.9;
+}
+
+/*about us*/
+#about-us {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.title-section {
+    color: #30343F;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.2rem;
+
+    margin-bottom: 25px;
+}
+
+#about-us h3 {
+    color: #30343F;
+}
+
+#about-us ul {
+    list-style-type: circle;
+    color: #30343F;
+}
+
+#about-us p {
+    color: #30343F;
+
+}
+
+/*cards*/
+.card {
+    padding: 0;
+}
+
+.card h3 {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.card-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+#featuredAnime {
+    margin-bottom: 60px;
+}
+
+.manga-btn,
+.anime-btn {
+    background-color: #1E2749;
+    border: 2px solid #E4D9FF;
+    border-radius: 8px;
+
+    color: #E4D9FF;
+    font-weight: bold;
+    padding: 5px 8px;
+    transition: all 0.25s;
+}
+
+@media(max-width: 994px) {
+    h1, #hero p {
+        text-align: center;
+    }
+
+    
+    
+}
+
+@media(max-width: 571px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .hero-row,
+    #about-us .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    #hero p {
+        font-size: 0.8rem;
+    }
+
+    ul li{
+        list-style: none;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    .title-section {
+        text-align: center;
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+}
